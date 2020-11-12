@@ -1,28 +1,24 @@
 <html>
-    <head>
-        <title>Excercise 1 training</title>
-    </head>
-    <body>
-        <h1>Es1</h1>
-        <p>Pagina html statica, includi file javascript, aggiungi un bottone, 
-        aggiungi un click listener al bottone che cambia il contenutodi un tag 
-        span e il contenuto e colore di un div
-        </p>    
-        <span id="span1">C'è un bottone</span>
-        <br><br>
-        <button id="btn1">NON PREMERE </button>
-        <div id="div1" style="background-color: rgb(36, 238, 238);">
-            <h2>Non premere il bottone</h2>
-            <p>Ti ho detto di non schiacciarlo</p>
-        </div>
+  <head>
+    <title>Excercise 1 training</title>
+  </head>
+  <body id="body1">
+    <h1>Es1</h1>
+    <p>
+      Pagina html statica, includi un file javascript, aggiungi un bottone,
+      aggiungi un click listener al bottone che cambia il contenuto di un tag
+      span e il contenuto e colore di un div.
+    </p>
+    
+    <span id="span1">C'è un bottone:</span>
+    
+    <div id="div1" style="background-color: rgb(41, 255, 87)">
+      <h2>Non premere il bottone!</h2>
+      <p>Ti ho detto di non premere il maledetto bottone!!</p>
+    </div>
 
-        <script>
-            var span1= document.getElementById("span1");
-            console.log("document: ",document);
-            console.log("span1: ",span1);
-            var testo=span1.innerHTML;
-            console.log("testo: ",testo);
-            document.getElementById("span1").innerHTML = "CUCU";
-        </script>
-    </body>
+    <br /><br />
+
+    <script src="es1.js"></script>
+  </body>
 </html>
